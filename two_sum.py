@@ -1,5 +1,5 @@
 class Solution:
-    def twoSum(self, nums: list[int], target: int) -> list[int] | None:
+    def twoSum(self, nums, target):
         seen = {}
         for i, value in enumerate(nums):
             remaining = target - nums[i]
